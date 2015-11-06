@@ -8,12 +8,12 @@ body {
 }
 
 nav {
+  box-shadow: 10px 0 10px black;
   display: flex;
   background: #efefef;
   justify-content: space-between;
   align-items: center;
   min-height: 8vh;
-
 }
 
 .link-wrapper {
@@ -28,11 +28,34 @@ nav {
 }
 
 h1 {
+  font-size: 45px;
   padding: 20px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+strong {
+  font-size: 39px;
+  text-decoration: underline;
+
+}
+
+h3 {
+  font-size: 45px;
+  font-weight: normal;
+}
+
+p {
+  font-size: 15px;
+  line-height: 23px;
+  padding: 0 10% 0 10%;
 }
 
 .jumbotron h2 {
   background-color: rgba(255, 255, 255, .5);
+  font-size: 33px;
   padding: 20px;
   margin: 0 6% 1% 6%;
 }
@@ -47,6 +70,8 @@ h1 {
   color: black;
   background-color: #e7e7e7;
   padding: 4% 0 2% 0;
+  margin: 0 0 30px 0;
+  box-shadow: 0 0 10px 0 black;
 }
 
 button {
@@ -59,7 +84,8 @@ button {
 }
 
 .grid {
-  border: 1px solid #e7e7e7;
+  border-bottom: 1px solid #e7e7e7;
+  padding-top: 20px;
 }
 
 .grid-row {
@@ -72,14 +98,17 @@ button {
 
 .grid-item {
   display: flex;
-  align-items: center;
+  justify-content: flex-start;
   flex-direction: column;
   flex-grow: 1;
-  padding: 12px;
-  margin: 12px;
-  background-color: #e7e7e7;
-  border: 1px solid #e7e7e7;
+  margin: 0 12px;
   border-radius: 10px;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.20), rgba(0, 0, 0, 0));
 }
 
 @media all and (min-width: 480px) {

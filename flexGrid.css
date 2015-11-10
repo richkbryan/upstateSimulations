@@ -5,17 +5,20 @@
 	flex-direction: column;
 	justify-content: center;
 	text-align: center;
-	border: 1px solid blue;
 }
 
 .row-item {
-	flex-grow: 100%;
-	border: 1px solid red;
+	flex-grow: 1;
 }
 /************/
 
-@media screen and (min-width: 720px) {
+@media (min-width: 720px) {
 	.row {
 		flex-direction: row;
+		flex-wrap: nowrap;
+	}
+
+	.row-item {
+		flex-basis: 100%;
 	}
 }

@@ -21,13 +21,13 @@ nav {
 .link-wrapper {
   display: flex;
   flex-wrap: nowrap;
-  margin-top: 4%;
+  margin-top: 8%;
 }
 .link-wrapper a {
   text-decoration: none;
   color: #111;
   margin-right: 15px;
-  font-size: 21px;
+  font-size: 1.1em;
 }
 
 .link-wrapper a:hover {
@@ -44,7 +44,6 @@ h2 {
 	font-weight: 500;
   font-size: 30px;
   color: #212121;
-
 }
 
 strong {
@@ -60,6 +59,7 @@ h3 {
   color: #FFFFFF;
   margin-bottom: 20px;
   background-color: #E80000;
+  margin-top: 5%;
 }
 
 #blue-bg {
@@ -82,7 +82,8 @@ p {
 
 section {
 	border: 5px solid #efefef;
-	padding: 1% 0;
+	padding: 7% 0;
+
 }
 
 .jumbotron h2 {
@@ -98,9 +99,9 @@ section {
   align-items: center;
   text-align: center;
   font-family: 'Roboto', sans-serif;
-  background-color: #50514F;
+  background-color: #afafaf;
   padding: 4% 0 2% 0;
-  margin: 0 0 30px 0;
+  margin: 3% 0 2% 0;
   box-shadow: 0 0 10px 0 #50514F;
 }
 
@@ -141,6 +142,10 @@ hr {
 	max-width: 100%;
 }
 
+.staff-text {
+	display: none;
+}
+
 /* Page specific grid layout */
 
 .row {
@@ -158,5 +163,13 @@ hr {
 
 	.staff-images img {
 		max-width: 50%;
+	}
+
+	.staff-text {
+		display: flex;
+	}
+
+	section {
+		padding: 4% 0;
 	}
 }

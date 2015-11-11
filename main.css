@@ -15,11 +15,13 @@ nav {
   box-shadow: 10px 0 10px #C5CAE9;
   background: #FFFFFF;
   min-height: 8vh;
+  padding: 3% 0 6% 0;
 }
 
 .link-wrapper {
   display: flex;
   flex-wrap: nowrap;
+  margin-top: 4%;
 }
 .link-wrapper a {
   text-decoration: none;
@@ -57,17 +59,17 @@ h3 {
   font-weight: normal;
   color: #FFFFFF;
   margin-bottom: 20px;
-  background-color: #E80000; /*FCE000 */ /*#E80000 */ /*#003279*/
+  background-color: #E80000;
 }
 
 #blue-bg {
-  background-color: #003279;
+  background-color: #9AC2C9; /*#003279;*/
 }
 #yellow-bg {
-  background-color: #FCE000;
+  background-color: #FFCB47; /*#FCE000;*/
 }
 #red-bg {
-  background-color: #3D8C00;
+  background-color: #1E5643; /*#3D8C00;*/
 }
 /******************************/
 
@@ -106,7 +108,7 @@ button {
 
   padding: 10px;
   border-radius: 10px;
-  background-color: #E80000;
+  background-color: #950000; /*#E80000;*/
   border: 0;
   font-size: 40px;
   font-weight: bold;
@@ -116,7 +118,7 @@ form {
   margin: 2% 0 0 0;
   padding: 10px;
   border-radius: 10px;
-  background-color: #E80000;
+  background-color: #950000; /*#E80000;*/
   border: 0;
   font-size: 40px;
   color: #FFFFFF;
@@ -139,7 +141,6 @@ hr {
 	max-width: 100%;
 }
 
-
 /* Page specific grid layout */
 
 .row {
@@ -152,6 +153,7 @@ hr {
 	nav {
   		flex-direction: row;
 		justify-content: space-between;
+		padding: 1% 0;
 	}
 
 	.staff-images img {

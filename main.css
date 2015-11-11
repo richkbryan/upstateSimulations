@@ -7,30 +7,29 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
-nav {
+header {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
-  box-shadow: 10px 0 10px #C5CAE9;
-  background: #FFFFFF;
   min-height: 8vh;
-  padding: 3% 0 6% 0;
+    padding: 3% 0 6% 0;
 }
 
-.link-wrapper {
+nav {
   display: flex;
   flex-wrap: nowrap;
   margin-top: 8%;
 }
-.link-wrapper a {
+
+nav a {
   text-decoration: none;
   color: #111;
   margin-right: 15px;
   font-size: 1.1em;
 }
 
-.link-wrapper a:hover {
+nav a:hover {
   background-color: #70C1B3;
 }
 
@@ -86,45 +85,6 @@ section {
 
 }
 
-.jumbotron h2 {
-  color: #FFFFFF;
-  font-size: 33px;
-  line-height: 54px;
-}
-
-.jumbotron {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  font-family: 'Roboto', sans-serif;
-  background-color: #afafaf;
-  padding: 4% 0 2% 0;
-  margin: 3% 0 2% 0;
-  box-shadow: 0 0 10px 0 #50514F;
-}
-
-button {
-
-  padding: 10px;
-  border-radius: 10px;
-  background-color: #950000; /*#E80000;*/
-  border: 0;
-  font-size: 40px;
-  font-weight: bold;
-  color: #FFFFFF;
-}
-form {
-  margin: 2% 0 0 0;
-  padding: 10px;
-  border-radius: 10px;
-  background-color: #950000; /*#E80000;*/
-  border: 0;
-  font-size: 40px;
-  color: #FFFFFF;
-}
-
 hr {
     border: 0;
     height: 1px;
@@ -155,7 +115,7 @@ hr {
 /*****************************/
 
 @media (min-width: 720px) {
-	nav {
+	header {
   		flex-direction: row;
 		justify-content: space-between;
 		padding: 1% 0;

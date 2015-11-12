@@ -16,7 +16,7 @@
 @media (min-width: 720px) {
 	.row {
 		flex-direction: row;
-		align-items: flex-start;
+		align-items: center;
 	}
 
 	.row-item {

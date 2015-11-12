@@ -14,6 +14,7 @@ header {
   align-items: center;
   min-height: 8vh;
   padding: 3% 0 6% 0;
+  background-color: #565857;
 }
 
 nav {
@@ -34,8 +35,9 @@ nav a:hover {
 }
 
 h1 {
-  font-size: 45px;
-  padding: 20px;
+  display: inline;
+  font-weight: bold;
+  font-size: 18px;
   color: #212121;
 }
 
@@ -45,11 +47,33 @@ h2 {
   color: #212121;
 }
 
+h4 {
+  font-weight: 500;
+  font-size: 30px;
+  color: #212121;
+  margin: 2% 0;
+}
+
 strong {
-  font-size: 39px;
+  font-size: 18px;
   text-decoration: underline;
 
 }
+
+span {
+  text-decoration: underline;
+}
+
+/* Button Styling */
+
+.call-action {
+  display: inline-block;
+  background-color: #9AC2C9;
+  text-align: center;
+  font-size: 50px;
+}
+
+/********************/
 
 /* Color coded steps */
 h3 {
@@ -106,10 +130,24 @@ hr {
 	display: none;
 }
 
+.external-brands {
+  display: flex;
+  justify-content: center;
+  border: 1px solid red;
+}
+
+.external-brands img {
+  flex-shrink: 1;
+}
+
 /* Page specific grid layout */
 
 .row {
 	margin: 0 0 1% 0;
+}
+
+.shrink-img {
+  max-width: 50%;
 }
 
 /*****************************/
